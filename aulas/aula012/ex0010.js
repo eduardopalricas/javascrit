@@ -9,3 +9,6 @@ if(idade<18){
         console.log('Esta velhote')
     }
 }
+
+
+
