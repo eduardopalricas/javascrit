@@ -37,3 +37,6 @@ img{
 div#res{
     padding-top: 20px;
 }
+select{
+    width: 150px;
+}
