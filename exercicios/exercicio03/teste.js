@@ -4,4 +4,5 @@ function contar(a, b, c){
         console.log(a)
     }while(a<=b)
 }
-contar(2,10,1)
+var a = 2 
+contar(a,10,1)
