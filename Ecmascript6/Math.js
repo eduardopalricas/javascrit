@@ -1,0 +1,12 @@
+console.log(Math.trunc(4.9))
+console.log(Math.sign(1))
+console.log(Math.sign(-1))
+console.log(Math.sign(0))
+console.log(Math.cbrt(8))
+console.log(Math.log10(100))
+console.log(Math.log2(8))
+
+console.log(Number.isFinite(10/0))
+console.log(Number.isInteger(2))
+console.log(Number.isSafeInteger(2000000000000000000000000))
+console.log(Number.isNaN(3))
