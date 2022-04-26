@@ -8,13 +8,16 @@
     
 </head>
 <body>
+    <p id="texto"></p>
     <script>
-        console.log('Usando fetch');
-        fetch('https://swapi.co/api/people/1')
-        .then(function(response){return response.json;})
+    document.write('Usando fetch')
+    function fetchapi(){
+    fetch('https://api.github.com/users/eduardopalricas')
+        .then(function(response){return response.json();})
         .then(function(data){
-            console.log(data.name);
-        });
+            document.getElementById('texto').innerHTML = data.login
+        });}
+    fetchapi()
     </script>
 </body>
 </html>
